@@ -15,16 +15,16 @@
 <body>
     <section class="layers">
 		<div class="layers__container">
-            <div class="layers__item layer-1"></div>
-			<div class="layers__item layer-2" style="background-image: url(stat/img/3rd_lay.png);"></div>
-			<div class="layers__item layer-3" style="background-image: url(stat/img/2nd_lay.png);"></div>
+			<div class="layers__item layer-1" style="background-image: url(stat/img/3rd_lay.png);"></div>
+			<div class="layers__item layer-2" style="background-image: url(stat/img/2nd_lay.png);"></div>
+			<div class="layers__item layer-3" style="background-image: url(stat/img/1st_lay.png);"></div>
 			<div class="layers__item layer-4">
-				<div class="layers__item layer-4">
-				</div>
+				<body class="back-row-toggle splat-toggle">
+					<div class="rain front-row"></div>
+					<div class="rain back-row"></div>
+				  </body>
 			</div>
-			<div class="layers__item layer-5" style="background-image: url(stat/img/1st_lay.png);"></div>
-				
-			<div class="layers__item layer-6">
+			<div class="layers__item layer-5">
 				<div class="card_container">
 					<div class="info_card">
 						<div class="front">
@@ -60,6 +60,7 @@
 			</div>
 		</div>
 	</section>
-
+	<script src="stat/scripts/lib.js" defer></script>
+	<script src='stat/scripts/rain.js' defer></script>
 </body>
 </html>
