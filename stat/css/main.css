@@ -36,23 +36,27 @@ body {
 }
 
 .layer-1 {
-    transform: translateZ(70px) scale(0.89);
+    transform: translateZ(70px) scale(0.80);
 }
 
 .layer-2 {
-    transform: translateZ(120px) scale(0.86);
+    transform: translateZ(120px) scale(0.81);
 }
 
 .layer-3 {
-    transform: translateZ(140px) scale(0.85);
+    transform: translateZ(140px) scale(0.83);
 }
 
 .layer-4 {
-    transform: translateZ(180px) scale(0.90);
+    transform: translateZ(180px) scale(0.85);
 }
 
 .layer-5 {
     transform: translateZ(180px) scale(0.90);
+}
+
+.layer-6 {
+    transform: translateZ(180px) scale(0.85);
 }
 
 
