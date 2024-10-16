@@ -36,19 +36,19 @@ body {
 }
 
 .layer-1 {
-    transform: translateZ(70px) scale(0.80);
+    transform: translateZ(70px) scale(0.82);
 }
 
 .layer-2 {
-    transform: translateZ(120px) scale(0.81);
+    transform: translateZ(120px) scale(0.83);
 }
 
 .layer-3 {
-    transform: translateZ(140px) scale(0.83);
+    transform: translateZ(140px) scale(0.85);
 }
 
 .layer-4 {
-    transform: translateZ(180px) scale(0.85);
+    transform: translateZ(180px) scale(0.87);
 }
 
 .layer-5 {
@@ -62,7 +62,7 @@ body {
 
 .card_container {
     text-align: center;
-    width: calc(var(--index) * 15);
+    width: calc(var(--index) * 17);
     height: calc(var(--index) * 15);
     margin-top: calc(var(--index) * 7);
     margin-left: calc(var(--index) * 7);
@@ -71,7 +71,7 @@ body {
 }
 
 .info_card {
-    width: calc(var(--index) * 15);
+    width: calc(var(--index) * 17);
     height: calc(var(--index) * 9);
 
     animation-name: slideUp;
@@ -86,7 +86,7 @@ body {
 
 }
 
-.front, .back {
+.front {
     margin-top: 2pt;
     text-align: center;
     align-items: center;
@@ -104,6 +104,15 @@ ul li {
     display: flex;
     flex-direction: row;
     margin: auto;
+}
+
+
+li {
+    transition: all 0.5s ease;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 .img {
@@ -131,7 +140,6 @@ p[data-name] {
         transform: translateY(0);
     }
 }
-
 
 .rain {
     position: absolute;
