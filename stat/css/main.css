@@ -78,7 +78,7 @@ body {
     animation-direction: normal;
     animation-fill-mode: both;
 
-    background: #2F3035;
+    /* background: #2F3035; */
 
 }
 
@@ -113,7 +113,8 @@ a {
 }
 
 p[data-name] {
-    font-size: calc(var(--index) * 1.8);
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: calc(var(--index) * 3);
     margin-bottom: calc((var(--index) * 9) / 2 - calc(var(--index) * 1.8) * 2);
 }
 
