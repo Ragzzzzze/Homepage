@@ -123,19 +123,25 @@ a {
     outline: none;
 }
 
+@font-face {
+    font-family: 'Custom';
+    src: url(../fonts/Eugusto_Free_Font.otf);
+}
+
 p[data-name] {
-    font-family:'Arial Narrow Bold', sans-serif;
+    font-family:'Custom', sans-serif;
     font-size: calc(var(--index) * 3);
     margin-bottom: calc((var(--index) * 9) / 2 - calc(var(--index) * 1.8) * 2);
 }
 
 p[data-info] {
+    font-family:'Custom', sans-serif;
     font-size: calc(var(--index) * 1.3);
 }
 
 @keyframes slideUp {
     from {
-        transform: translateY(-350px);
+        transform: translateY(-380px);
     }
 
     to {
@@ -258,5 +264,12 @@ body.splat-toggle .splat {
 @media screen and (min-width: 900px) {
     .layer-1 {
         transform: translateZ(70px) scale(0.85);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .card_container {
+        margin-top: calc(var(--index) * 20);
+        margin-left: calc(var(--index) * 10);
     }
 }
